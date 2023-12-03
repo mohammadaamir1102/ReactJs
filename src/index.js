@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UserComponent from './functionalComponent/UserComponent';
 import Employee from './classComponent/Employee';
+import NestedComponent from './neastedComponent/NestedComponent';
 
 
 
@@ -14,7 +15,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <UserComponent /> */}
-    <Employee />
+    {/* <Employee /> */}
+    <NestedComponent />
   </React.StrictMode>
 );
 
